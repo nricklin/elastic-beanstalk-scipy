@@ -6,6 +6,7 @@ def wsgi_app(environ, start_response):
     start_response(status, headers)
 
     import scipy
-    yield scipy.version.version
+    output = "scipy version is: %s" % scipy.version.version
+    yield output
 
 application = wsgi_app
