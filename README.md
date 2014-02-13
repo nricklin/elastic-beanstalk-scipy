@@ -3,7 +3,7 @@ elastic-beanstalk-scipy
 
 Getting scipy to work on elastic beanstalk with Python 2.7.
 
-This package will compile scipy from source (which in turn requries getting a fortran compiler onto the beanstalk instance).  It takes a long time, and is not suitable for actual deployment.  BUT, you can do this once, then tarball up the `/opt/python/run/venv` virutal environment and use that for faster deployment.
+This package will compile scipy from source (which in turn requries getting a fortran compiler onto the beanstalk instance).  It takes a long time, and is not suitable for actual deployment.  BUT, you can do this once, then tarball up the `/opt/python/run/venv` virtual environment and use that for faster deployment.
 
 Run:
 
